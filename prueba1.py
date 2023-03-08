@@ -22,12 +22,16 @@ def suma():
         return cadena
 
 def resta():
-    resta=resta2=0
+    resta1=resta2=0
     entrada=int(input("Ingrese el primer valor:\n"))
-    resta= entrada
+    resta1+= entrada
     entrada=int(input("Ingrese el primer valor:\n"))
-    resta2=entrada
-    
+    resta2+=entrada
+    resta=resta1-resta2
+    return resta
+
+
+
     
 
 
@@ -41,7 +45,7 @@ if oper == 2:
 if oper ==1:
     print()
 if oper ==3:
-    print()
+    print(resta())
 if oper ==4:
     print()
 
