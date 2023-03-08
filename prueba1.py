@@ -22,10 +22,15 @@ def suma():
         return cadena
 
 def resta():
-    resta=0
-    while True:
-        matias
-        
+    resta=resta2=0
+    entrada=int(input("Ingrese el primer valor:\n"))
+    resta= entrada
+    entrada=int(input("Ingrese el primer valor:\n"))
+    resta2=entrada
+    
+    
+
+
 
 
     
