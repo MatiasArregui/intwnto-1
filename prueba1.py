@@ -22,14 +22,17 @@ def suma():
         return cadena
 
 def resta():
-    resta1=resta2=0
-    entrada=int(input("Ingrese el primer valor:\n"))
-    resta= entrada
-    entrada=int(input("Ingrese el primer valor:\n"))
-    resta2=entrada
-    resta3=resta1-resta2
+    entrada1=int(input("Ingrese el valor a restar:\n"))
+    entrada2=int(input("Ingrese el valor que restarara:\n"))
+    resta3=entrada1-entrada2
     return resta3
 
+def multiplicacion():
+    Resultado=0
+    valor1=int(input("Ingrese el valor a multiplicar:\n"))
+    valor2=int(input("Ingrese el multiplicador:\n"))
+    resultado=valor1*valor2
+    return resultado
     
     
 
@@ -42,7 +45,7 @@ oper=operacion()
 if oper == 2:
     print(suma())
 if oper ==1:
-    print()
+    print(multiplicacion())
 if oper ==3:
     print(resta())
 if oper ==4:
